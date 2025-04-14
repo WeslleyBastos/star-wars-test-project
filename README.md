@@ -6,6 +6,16 @@
 
 Este é um projeto Next.js que explora o universo Star Wars, utilizando a SWAPI (Star Wars API) para fornecer informações detalhadas sobre personagens e planetas da saga. O projeto demonstra boas práticas de desenvolvimento React, gerenciamento de estado, cache de dados e UI/UX moderno.
 
+## 🚀 Como Executar
+
+```bash
+git clone
+yarn install
+Add .env: NEXT_PUBLIC_API_URL=https://swapi.dev/api
+yarn next dev
+(Jest) yarn test
+```
+
 ## 🛠️ Tecnologias Principais
 
 ### Core
@@ -47,15 +57,6 @@ src/
 ├── types/             # Tipagens TypeScript
 └── constants/         # Constantes e configurações
 
-## 🚀 Como Executar
-
-```bash
-git clone
-yarn install
-Add .env: NEXT_PUBLIC_API_URL=https://swapi.dev/api
-yarn test
-yarn next dev
-```
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas!

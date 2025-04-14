@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Flex, Heading, Text, Blockquote, Card, Separator } from "@radix-ui/themes";
+import {Flex, Heading, Text, Blockquote, Card, Separator } from "@radix-ui/themes";
 
 export default function Home() {
   return (
@@ -41,8 +41,8 @@ export default function Home() {
           para o time do Mercado Livre. Foi um desafio bastante
           motivador, no qual pude explorar conceitos modernos de frontend,
           acessibilidade e componentes reusáveis.
-
-          <br /><br />
+        </Blockquote>
+        <Blockquote size="5" color="gray">
           ⚠️ Vale ressaltar que, durante a execução do projeto, a API apresentou instabilidades
           que impactaram a visualização completa dos dados em alguns momentos. Ainda assim,
           todos os esforços foram feitos para garantir a melhor experiência possível dentro
